@@ -1,0 +1,22 @@
+{
+  "name": "respondtask",
+  "version": "1.0.0",
+  "description": "API Automation",
+  "main": "index.js",
+  "dependencies": {
+    "mochawesome-report-generator": "^6.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^11.0.1",
+    "mocha": "^9.2.0",
+    "mochawesome": "^7.0.1",
+    "mochawesome-merge": "^4.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "merge-reports": "mochawesome-merge ./cypress/results/*.json -o ./cypress/results/m-report.json",
+    "generate-html": "marge ./cypress/results/m-report.json --reportDir ./cypress/results/m-report"
+  },
+  "author": "Raza",
+  "license": "ISC"
+}

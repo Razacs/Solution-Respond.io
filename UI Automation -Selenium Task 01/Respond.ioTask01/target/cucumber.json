@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-12T05:10:33.762Z",
+        "line": 23,
+        "name": "Test the functionalty of iprice",
+        "description": "",
+        "id": "test-the-iprice-functionality;test-the-functionalty-of-iprice;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6650637600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20889117500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on iprice home page and validate it",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.user_is_on_iprice_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3598299900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user navigate to laptops page and validate it",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.user_navigate_to_laptops_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4254765200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select the brand value to be Dell",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.user_validate_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763098200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate result based on selected filter",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.user_select_Dell_Brand()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1545799100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user navigate to dresses page",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.user_navigate_to_dress_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7156153000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click on Price sorting until the indicator indicates",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.user_click_Dress_Price()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91948200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate that the results are sorted in descending order of Price",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.validate_result_Sorted()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2334738300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user navigate to home page",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.navigate_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256854400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Search for iphone 14",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iphone 14",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinition.ipriceSteps_PF.user_search_item(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18154050900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user click on Search button",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.Click_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 617837700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Validate that the result matches the search criteria",
+            "match": {
+              "location": "StepDefinition.ipriceSteps_PF.Search_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the iprice functionality",
+    "description": "",
+    "id": "test-the-iprice-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/iprice.feature",
+    "tags": []
+  }
+]
